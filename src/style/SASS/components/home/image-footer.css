@@ -2,4 +2,69 @@
   width: 100%;
   margin-top: 66px;
 }
+
+.fortnite-logo-footer-img {
+  width: 220px;
+  height: 50px;
+  margin-bottom: 17px;
+}
+
+.image-footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infos-container {
+  z-index: 10;
+  margin-top: 600px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.incubation-title-footer-img {
+  width: 500px;
+  height: 75px;
+  margin-bottom: 5px;
+}
+
+.text-info-footer-img {
+  font-size: 65px;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  color: white;
+  font-style: italic;
+}
+
+.btn-jouez-footer-img {
+  background-color: #ffda0b;
+  border: none;
+  color: white;
+  width: 58%;
+  height: 60px;
+  -webkit-clip-path: polygon(0% 16%, 100% 6%, 98% 100%, 2% 90%);
+  clip-path: polygon(0% 16%, 100% 6%, 98% 100%, 2% 90%);
+  font-size: 1.9em;
+  font-family: burbank;
+}
 /*# sourceMappingURL=image-footer.css.map */

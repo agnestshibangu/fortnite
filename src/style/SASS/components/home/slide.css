@@ -135,7 +135,7 @@
   margin-bottom: 15px;
 }
 
-.season-title, .text-info {
+.season-title, .text-info, .h3-slide-2 {
   color: white;
   font-style: italic;
   letter-spacing: 0.050em;
@@ -207,7 +207,7 @@
 .container-bottom-slide2 {
   position: absolute;
   z-index: 10;
-  top: 910px;
+  top: 930px;
   width: 24%;
   left: 63%;
   display: -webkit-box;
@@ -223,8 +223,7 @@
 }
 
 .h3-slide-2 {
-  color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .play-icon {
