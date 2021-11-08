@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: burbank;
+  src: url(../font/BurbankBigCondensedBlack700.ttf) format("truetype");
+}
+
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: burbank;
+  background-color: #121212;
+
+}
+
+
+h1 {
+  font-family: burbank;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+}

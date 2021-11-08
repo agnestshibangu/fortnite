@@ -1,0 +1,9 @@
+@font-face {
+  font-family: burbank;
+  src: url(../../font/Burbank/BurbankBigCondensedBlack700.ttf) format("truetype");
+}
+
+body {
+  font-family: burbank;
+}
+/*# sourceMappingURL=app.css.map */

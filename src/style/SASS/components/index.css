@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: burbank;
+  src: url(../../font/Burbank/BurbankBigCondensedBlack700.ttf) format("truetype");
+}
+
+h1 {
+  font-family: burbank;
+}
+/*# sourceMappingURL=index.css.map */

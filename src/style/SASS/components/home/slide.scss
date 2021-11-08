@@ -1,0 +1,195 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio-buttons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1185px;
+    text-align: center;
+    padding: 0;
+    bottom: 50px;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+
+.radio-button {
+    height: 10px; 
+    width: 80px;
+    background-color: #ff00e4;
+    border: none;
+    margin: 0.5em;
+}
+
+.radio-btn-2 {
+    opacity: 0.3;
+}
+
+.slide-1, .slide-2 {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    flex: 1;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+}
+
+
+.slides {
+    width: 200%;
+    height: 100%;
+    display: flex;
+   animation: slide 10s ease forwards infinite alternate;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.season-bug, .bug2{
+    left: 1%;
+    top: 16px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+}
+
+.bug2 {
+    left: 51%;
+    position: absolute;
+}
+
+.infos-slide1, .infos-slide2 {
+    position: absolute;
+    left: 12.5%;
+    width: 28%;
+    top: 800px;
+    height: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+}
+
+
+
+
+
+.incubation-title {
+    width: 100%; 
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.season-title, .text-info {
+    color: white;
+    font-style: italic;
+    letter-spacing: 0.050em;
+}
+
+.season-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+    
+}
+
+.text-info {
+    font-size: 33px;
+    margin-bottom: 15px;
+    
+}
+
+.btn-jouez {
+    background-color: rgb(255, 218, 11);
+    border: none;
+    color: white;
+    width: 66%;
+    height: 73px;
+    clip-path: polygon(0% 16%, 100% 6%, 98% 100%, 2% 90%);
+    font-size: 1.7em;
+    font-family: burbank;
+}
+
+.box-shadow-pink {
+    position: absolute;
+    left: 12.5%;
+    width: 28%;
+    top: 800px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9;
+    opacity: 0.5;
+    background-color: #ff00e4;
+    filter: blur(75px);
+}
+
+.infos-slide2  {
+    left: 62.5%;
+    top: 38px;
+    height: 120px;
+    z-index: 10;
+}
+
+.box-shadow-pink2 {
+    z-index: 1;
+    left: 62.5%;
+    top: 50px;
+    height: 120px;
+    width: 27%;
+}
+
+.container-bottom-slide2{
+    position: absolute;
+    z-index: 10;
+    top: 910px;
+    width: 24%;
+    left: 63%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.h3-slide-2 {
+    color: white;
+    font-size: 30px;
+}
+
+.play-icon {
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+
+}
+
+.inner-container {
+        width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
