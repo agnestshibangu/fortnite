@@ -1,6 +1,8 @@
 import React from 'react'
 import '../src/style/SASS/app.css';
 import Header from '../src/components/Navbar'
+import Footer from '../src/components/Footer'
+
 import Slide from './components/Home/Slide';
 import Cards from './components/Home/Cards';
 import FooterImage from './components/Home/FooterImage';
@@ -15,7 +17,7 @@ function App() {
   //   <FooterImage />
   // </div>
   <div>
-        <Header/>
+      <Header/>
       <div className="main-container">
         
         <Slide />
@@ -23,6 +25,8 @@ function App() {
         <LoadExtra />
         <FooterImage />
       </div>
+
+      <Footer />
   
 
 

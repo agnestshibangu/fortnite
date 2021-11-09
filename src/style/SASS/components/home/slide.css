@@ -56,6 +56,15 @@
           animation: slide 10s ease forwards infinite alternate;
 }
 
+.slides-revert {
+  width: 200%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  animation: slide 10s ease reverse infinite alternate;
+}
+
 @-webkit-keyframes slide {
   0% {
     -webkit-transform: translateX(0);
