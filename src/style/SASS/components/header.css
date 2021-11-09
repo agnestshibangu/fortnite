@@ -1,3 +1,7 @@
+.header-container {
+  font-family: OpenSans,sans-serif,arial;
+}
+
 .nav-container {
   height: 3.3rem;
   background-color: #2a2a2a;
@@ -92,5 +96,45 @@
 .io-search-icon-white {
   margin-right: 25px;
   font-size: 24px;
+}
+
+.links-container {
+  width: 90%;
+  height: 100vh;
+  background-color: #2a2a2a;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-transform: uppercase;
+  letter-spacing: .075em;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.active {
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.horizontal-bar {
+  width: 100%;
+  height: 0.025em;
+  background-color: rgba(169, 169, 169, 0.171);
+}
+
+.header-link {
+  padding: 1em 2em;
 }
 /*# sourceMappingURL=header.css.map */

@@ -1,12 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "../../style/SASS/components/home/slide.scss"
 import { BsPlayCircle } from 'react-icons/bs';
 
 export default function Slide() {
+
+
     return (
         <div>
 
-            <div className="slides">
+            <div className="slides" id="slides">
 
                 {/* premier slide */}
                 <div class="slide first">
@@ -14,7 +16,7 @@ export default function Slide() {
                         <p className="season-title">SAISON 8</p>
                         <img className="incubation-title" src="https://cdn2.unrealengine.com/cubed-logo-fr-1142x163-32d26b7f6921.png" alt="incubation-title" />
                         <h3 className="text-info">PASSE DE COMBAT</h3>
-                        <button className="btn-jouez">JOUEZ GRATUITEMENT !</button>
+                        <button className="btn-jouez" >JOUEZ GRATUITEMENT !</button>
                     </div>
                     <div className="box-shadow-pink"></div>
                     <img className="season-bug" src="https://cdn2.unrealengine.com/season-bug-fr-200x200-ff6fc702df6e.png" alt="badge-c2s8" />
@@ -39,7 +41,7 @@ export default function Slide() {
                             <h3 className="h3-slide-2">REGARDEZ LA BANDE ANNONCE</h3>
                             <BsPlayCircle className="play-icon"/>
                         </div>
-                        <button className="btn-jouez btn-jouez2">JOUEZ GRATUITEMENT !</button>
+                        <button className="btn-jouez btn-jouez2" >JOUEZ GRATUITEMENT !</button>
                     </div>
 
 
@@ -53,7 +55,7 @@ export default function Slide() {
 
             <div className="radio-buttons">
                 <button className="radio-button radio-btn-1" />
-                <button className="radio-button radio-btn-2" />
+                <button className="radio-button radio-btn-2"  />
             </div>
 
 
