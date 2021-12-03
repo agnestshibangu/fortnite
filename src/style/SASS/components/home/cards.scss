@@ -12,7 +12,13 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 35px 35px;
     width: 96%;
+    height: 100px;
+    overflow: hidden;
 
+}
+
+.full {
+    height: 1000px;
 }
 
 .card-image {

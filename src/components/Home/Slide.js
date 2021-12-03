@@ -1,21 +1,31 @@
-import React, { useState } from 'react'
-import "../../style/SASS/components/home/slide.scss"
+import React, { useState } from 'react';
+import "../../style/SASS/components/home/slide.scss";
 import { BsPlayCircle } from 'react-icons/bs';
+import ReactDOM from 'react-dom'
+import ModalVideo from 'react-modal-video'
+
 
 export default function Slide() {
 
     const [currentSlide, setCurrentSlide] = useState(false)
+    const [isOpen, setOpen] = useState(false)
+  
 
-    
-    function showSlide() {
+    const showSlide = () => {
         setCurrentSlide(!currentSlide)
     }
+
+   
+  
+
+ 
 
     return (
         <div>
 
-            <div className="slides">
-        
+            <div className="slides" >
+                {/* <div className={currentSlide? "slides" : "slidesClicked"} >
+     */}
                 {/* premier slide */}
                 <div class="slide first">
                     <div className="infos infos-slide1">
@@ -45,7 +55,11 @@ export default function Slide() {
                     <div className="container-bottom-slide2">
                         <div className="inner-container">
                             <h3 className="h3-slide-2">REGARDEZ LA BANDE ANNONCE</h3>
-                            <BsPlayCircle className="play-icon"/>
+                            <BsPlayCircle className="play-icon"  onClick={() => setOpen(true)} />
+                            <React.Fragment>
+                                <ModalVideo className="modal-video" channel='youtube' autoplay isOpen={isOpen} videoId="L61p2uyiMSo" onClose={() => setOpen(false)} />
+                            </React.Fragment>
+
                         </div>
                         <button className="btn-jouez btn-jouez2" >JOUEZ GRATUITEMENT !</button>
                     </div>

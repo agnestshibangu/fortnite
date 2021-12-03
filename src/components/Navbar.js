@@ -49,6 +49,15 @@ function Header() {
                 <div className="horizontal-bar" />
                 <a className="header-link" >v-bucks</a>
                 <div className="horizontal-bar" />
+                <a className="header-link" >compétition</a>
+                <div className="horizontal-bar" />
+                <a className="header-link" >actus</a>
+                <div className="horizontal-bar" />
+                <a className="header-link" >cosplay</a>
+                <div className="horizontal-bar" />
+                <a className="header-link" >aide</a>
+                <div className="horizontal-bar" />
+
             </div>
 
 

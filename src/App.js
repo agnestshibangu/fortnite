@@ -2,11 +2,10 @@ import React from 'react'
 import '../src/style/SASS/app.css';
 import Header from '../src/components/Navbar'
 import Footer from '../src/components/Footer'
-
 import Slide from './components/Home/Slide';
 import Cards from './components/Home/Cards';
 import FooterImage from './components/Home/FooterImage';
-import LoadExtra from './components/Home/LoadExtra';
+
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
         
         <Slide />
         <Cards />
-        <LoadExtra />
         <FooterImage />
       </div>
 
